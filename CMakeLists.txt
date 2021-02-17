@@ -31,6 +31,10 @@ project(ot-kw41z VERSION 0.2.0)
 
 set(OT_PLATFORM_LIB "openthread-kw41z")
 
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
+
 add_subdirectory(openthread)
 
 target_compile_definitions(ot-config INTERFACE

@@ -38,7 +38,7 @@ $ ./script/build
 
 ## Flash Binaries
 
-If the build completed successfully, the `elf` files may be found in `<path-to-ot-kw41z>/openthread/examples/apps/`. You can convert them to `bin` files using `arm-none-eabi-objcopy`:
+If the build completed successfully, the `elf` files may be found in `<path-to-ot-kw41z>/build/bin/`. You can convert them to `bin` files using `arm-none-eabi-objcopy`:
 
 ```bash
 $ arm-none-eabi-objcopy -O binary ot-cli-ftd ot-cli-ftd.bin
@@ -66,7 +66,7 @@ Contributors are required to abide by our [Code of Conduct](https://github.com/o
 
 # License
 
-OpenThread is released under the [BSD 3-Clause license](https://github.com/openthread/ot-cc2538/blob/master/LICENSE). See the [`LICENSE`](https://github.com/openthread/ot-cc2538/blob/master/LICENSE) file for more information.
+OpenThread is released under the [BSD 3-Clause license](https://github.com/openthread/ot-kw41z/blob/master/LICENSE). See the [`LICENSE`](https://github.com/openthread/ot-kw41z/blob/master/LICENSE) file for more information.
 
 Please only use the OpenThread name and marks when accurately referencing this software distribution. Do not use the marks in a way that suggests you are endorsed by or otherwise affiliated with Nest, Google, or The Thread Group.
 
