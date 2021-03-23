@@ -32,13 +32,15 @@
  *
  */
 
+#include <stdint.h>
+
+#include "utils/uart.h"
+
 #include "clock_config.h"
 #include "fsl_clock.h"
 #include "fsl_device_registers.h"
 #include "fsl_port.h"
 #include "platform-kw41z.h"
-#include <stdint.h>
-#include "openthread/platform/uart.h"
 
 otInstance *sInstance;
 
