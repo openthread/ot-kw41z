@@ -36,8 +36,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include <utils/code_utils.h>
-#include "openthread/platform/uart.h"
+#include "utils/code_utils.h"
+#include "utils/uart.h"
 
 #include "fsl_clock.h"
 #include "fsl_lpuart.h"
